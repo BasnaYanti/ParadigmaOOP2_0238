@@ -12,5 +12,8 @@ class seseorang
 
 class joko : public seseorang
 {
-
+    void pesan()
+    {
+        cout << "Pesan dari joko" << endl;    
+    }  
 };
