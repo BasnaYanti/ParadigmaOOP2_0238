@@ -9,3 +9,11 @@ class baseClass final{
     }
 };
 
+class derivedClass : public baseClass
+{
+    public:
+    void perkenalan()
+    {
+        cout << "Hallo aku fungsi dari derived Class";
+    }
+};
